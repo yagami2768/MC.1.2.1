@@ -1,0 +1,159 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Tranquilizer Arrow\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Common Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Slowness VI (0:05)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 5921382,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 5,
+                      "duration": 100
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Poisoned Arrow\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Common Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Wither II (0:05)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 39168,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 1,
+                      "duration": 100
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"white\",\"italic\":false,\"text\":\"Splash Potion of Recovery\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Common Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Regeneration III (0:07)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Speed I (0:07)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16711680,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 2,
+                      "duration": 140
+                    },
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 0,
+                      "duration": 140
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Continuum Cake\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Fast-Eat Food\"}"
+                ],
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 5,
+                  "can_always_eat": false,
+                  "eat_seconds": 0.4
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:arrow",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 5
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

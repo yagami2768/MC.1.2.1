@@ -1,0 +1,89 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "id": "max_health_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusHealth"
+        },
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.armor",
+        "id": "armor_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusArmor",
+          "scale": 1
+        },
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.attack_damage",
+        "id": "attack_damage_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusDamage",
+          "scale": 0.5
+        },
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "id": "attack_speed_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusAS",
+          "scale": 0.1
+        },
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "id": "movement_speed_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusMS",
+          "scale": 0.01
+        },
+        "operation": "add_multiplied_base",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:player.entity_interaction_range",
+        "id": "entity_interaction_range_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusRange",
+          "scale": 0.1
+        },
+        "operation": "add_value",
+        "slot": "legs"
+      },
+      {
+        "attribute": "minecraft:generic.jump_strength",
+        "id": "jump_strength_pants",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "bonusJump"
+        },
+        "operation": "add_multiplied_total",
+        "slot": "legs"
+      }
+    ]
+  }
+]

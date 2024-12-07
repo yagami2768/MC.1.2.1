@@ -1,0 +1,7 @@
+{
+  "function": "set_enchantments",
+  "enchantments": {
+		"frost_walker": 0,
+		"binding_curse": 0
+	}
+}

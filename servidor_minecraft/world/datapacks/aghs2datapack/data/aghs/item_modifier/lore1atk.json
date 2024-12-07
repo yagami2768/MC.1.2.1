@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "+1 Attack",
+        "color": "blue",
+        "italic": false
+      }
+    ],
+    "mode": "append"
+  }

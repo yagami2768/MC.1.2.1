@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 2
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Continuum Cake\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Fast-Eat Food\"}"
+                ],
+                "minecraft:food": {
+                  "nutrition": 8,
+                  "saturation": 5,
+                  "can_always_eat": false,
+                  "eat_seconds": 0.4
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

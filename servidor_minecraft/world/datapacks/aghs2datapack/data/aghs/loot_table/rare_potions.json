@@ -1,0 +1,650 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 2,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"dark_aqua\",\"italic\":false,\"text\":\"Totem of Undying\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Offhand Item\"}"
+                ],
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Echo Slam\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Single-Use Spell Scroll\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Nearby mobs take damage equal\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"to the number of nearby mobs.\"}"
+                ],
+                "minecraft:custom_model_data": 1,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Ravage\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Single-Use Spell Scroll\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Damage and slow mobs in a\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"wide radius around you.\"}"
+                ],
+                "minecraft:custom_model_data": 2,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Lightning Storm\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Single-Use Spell Scroll\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Deal a little damage\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"to every enemy.\"}"
+                ],
+                "minecraft:custom_model_data": 5,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Dispelling Blink\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Single-Use Spell Scroll\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Teleport a short distance forward,\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"healing you and dispelling debuffs.\"}"
+                ],
+                "minecraft:custom_model_data": 3,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"gold\",\"italic\":false,\"text\":\"Refresh Cooldowns\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Single-Use Spell Scroll\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"Reset the cooldowns of all your\"}",
+                  "{\"color\":\"gray\",\"italic\":false,\"text\":\"spells, letting you cast them again.\"}"
+                ],
+                "minecraft:custom_model_data": 4,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Sustain\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Regeneration I (2:00)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16755404,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Invulnerability\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Resistance V (0:07)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Instant Health IV)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16777215,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 4,
+                      "duration": 140
+                    },
+                    {
+                      "id": "minecraft:instant_health",
+                      "amplifier": 3,
+                      "duration": 1
+                    },
+                    {
+                      "id": "minecraft:glowing",
+                      "amplifier": 0,
+                      "duration": 140
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Absorption\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Absorption V (2:00)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16777113,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 4,
+                      "duration": 2400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Power\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Strength IV (0:06)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 13395456,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 3,
+                      "duration": 120
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Strength\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Strength I (1:15)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 8912896,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 1500
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Resistance\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Resistance II (1:30)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 7829367,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 1800
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Urgency\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Speed VI (0:20)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 255,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 5,
+                      "duration": 400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Potion of Escape\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Speed III (0:08)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Resistance III (0:08)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Regeneration IV (0:08)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Invisibility (0:08)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 0,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 2,
+                      "duration": 160
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 2,
+                      "duration": 160
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 3,
+                      "duration": 160
+                    },
+                    {
+                      "id": "minecraft:invisibility",
+                      "amplifier": 0,
+                      "duration": 160
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Splash Potion of Friendship\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Ultra-Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Speed II (2:00)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Strength I (2:00)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Absorption II (2:00)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Resistance II (2:00)\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Regeneration I (2:00)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16776960,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:speed",
+                      "amplifier": 1,
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:resistance",
+                      "amplifier": 1,
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:regeneration",
+                      "amplifier": 0,
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:strength",
+                      "amplifier": 0,
+                      "duration": 2400
+                    },
+                    {
+                      "id": "minecraft:absorption",
+                      "amplifier": 1,
+                      "duration": 2400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Splash Potion of Freezing\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Slowness VI (0:12)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 2241365,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 5,
+                      "duration": 240
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Splash Potion of Disarming\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Potion\"}",
+                  "{\"color\":\"blue\",\"italic\":false,\"text\":\"Weakness VI (0:15)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 9150807,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 5,
+                      "duration": 300
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Arrow of Gravity\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Levitation XXIV (0:01)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 4495837,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 23,
+                      "duration": 20
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Arrow of Stunning\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Wither II (0:10)\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Levitation I (0:10)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 16777215,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 1,
+                      "duration": 200
+                    },
+                    {
+                      "id": "minecraft:levitation",
+                      "amplifier": 0,
+                      "duration": 200
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Arrow of Disabling\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Slowness IV (0:30)\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Weakness III (0:30)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 10053341,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:slowness",
+                      "amplifier": 3,
+                      "duration": 600
+                    },
+                    {
+                      "id": "minecraft:weakness",
+                      "amplifier": 2,
+                      "duration": 600
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Arrow of Demise\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Wither I (2:00)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 7798784,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 0,
+                      "duration": 2400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 1,
+                "minecraft:custom_name": "{\"color\":\"yellow\",\"italic\":false,\"text\":\"Arrow of Pain\"}",
+                "minecraft:lore": [
+                  "{\"color\":\"dark_gray\",\"italic\":false,\"text\":\"Rare Tipped Arrow\"}",
+                  "{\"color\":\"red\",\"italic\":false,\"text\":\"Wither III (0:20)\"}"
+                ],
+                "minecraft:potion_contents": {
+                  "custom_color": 3355443,
+                  "custom_effects": [
+                    {
+                      "id": "minecraft:wither",
+                      "amplifier": 2,
+                      "duration": 400
+                    }
+                  ]
+                },
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

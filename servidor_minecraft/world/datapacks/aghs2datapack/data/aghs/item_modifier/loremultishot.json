@@ -1,0 +1,7 @@
+{
+  "function": "set_lore",
+  "lore": [
+	{"text":"Multishot","color":"dark_purple","italic":false}
+	],
+    "mode": "append"
+}
